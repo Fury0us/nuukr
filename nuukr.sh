@@ -43,7 +43,7 @@ echo ""
 read -p $'\e[1;36mDir/File?: \e[0m' path
 if [ -f "$path" ]
 then
-  sudo shred -u -n $encshr "$path"
+  sudo shred -u -n $encshr "$path"/*/*/*/*/*/*/*/*/*/*
 elif [ -d "$path" ]; then
   sudo rm -rf "$path"
 else
