@@ -10,3 +10,7 @@ file a randomly generated number of times
 - cd nuukr
 - sudo bash nuukr.sh
 - happy hacking!
+## update 12/20/2023
+if the directory or file your trying to delete has multiple sub-directories,
+it shreds all the files inside of the initially indicated file and sib dirs a random
+number of times between 200-500
